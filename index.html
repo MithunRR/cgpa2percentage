@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA to PERCENTAGE</title>
+    <link rel="stylesheet" href="script/css/style.css">
+    <script src="script/js/script.js"></script>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="head">
+            <img src="script/img/logoDpu1.png" alt="DPU Logo">
+            <a id="a" href="https://engg.dypvp.edu.in/" target="_blank">DR. D. Y. PATIL INSTITUTE OF TECHNOLOGY,
+                PIMPRI</a>
+            <h2>Student Made</h3>
+        </div>
+
+        <div class="container">
+            <h1>CGPA to Percentage Converter</h1>
+
+            <div id="t">Enter CGPA : -
+                <input id="cgpa_input" type="number" min="0.00" max="10.00" step="0.01">
+                <button onclick="myFunction()" id="btn">Calculate</button>
+            </div>
+
+            <div id="error_msg"></div>
+
+            <table>
+                <tr>
+                    <th>CGPA</th>
+                    <th id="op_cgpa"> _ </th>
+                </tr>
+                <tr>
+                    <td>Grade</td>
+                    <td id="op_grade"> _ </td>
+                </tr>
+                <tr>
+                    <td>Percentage</td>
+                    <td id="op_per"> _ </td>
+                </tr>
+                <tr>
+                    <td>Class</td>
+                    <td id="op_class"> _ </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+
+    <p id="center">Note: This conversion is based on SPPU FE 2019 rulebook and circular no. 322/2020</p>
+
+    <p id="para">Prepaired by: <br>
+        Mithun Raju Rathod <br>
+        Student - Mechanical Engineering <br>
+        BE - A</p>
+</body>
+
+</html>
